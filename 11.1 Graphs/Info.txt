@@ -1,0 +1,41 @@
+//degree means number of edges connected to the node-- In undirected graph
+
+//In directed graph- In degree (number of edges coming to the node)
+//Out degree means number of edges connected from the node (the edges that lead out from the node)
+
+//In undirected graph we can assume that weight is 1 of each edges
+
+//Path is the route we can take from one point of the graph to the other
+
+//Cyclic Graph- Already coming to a node that we already went through
+
+//Acyclic Graph the one where we don't have a cycle
+
+Adjacency matrix= Number of Nodes=n , Number of edges=m
+
+If the number of nodes is given as 3 and the number of edges is also given as 3 and the conncection is given as
+
+0->1
+1->2
+2->0
+
+
+In the adjacency matrix we go for if the number of nodes is n then
+
+0....n-1
+
+    0   1    2
+0 | 0 | 1 |  0
+1 | 0 | 0 |  1
+2 | 1 | 0 |  0             so filling zeros if the nodes are not connected and 1's if they are connected
+
+Space Complexity O(n^2) as we can see from matrix
+
+
+Adjacency list: Writing the neighbours as a list of elements
+
+if we have 1->2,4,5 and 2->1,2,4
+
+then we can write it as 1->2,4,5 here its a list and the number 1 is a number
+
+so we can map a number with a list and we have our adjacency list
