@@ -1,0 +1,55 @@
+ BFS
+
+ bfs- Traversal technique
+
+As we take an example of Undirected graph so we have the same number connecting back
+ 0->1
+ 1->0,2
+ 2->1,4,3,
+ 3->4,2
+ 4->2,3
+
+ If we do the BFS on the above graph then we will print the following:
+
+On zero 0 and 1,then we move to 1 and print 2 (not 0 as it is already printed), then we move to 2 and we print 3 and 4
+not 1 as it is already printed, and then we move to 3 and don't print 2 and 4 as it is already printed, then finally to 4
+and we don't print as 2,3 it is already printed.
+
+so we print-> 0,1,2,3,4
+
+In BFS we need a Data structure to track the number of nodes visited
+
+we can have unordered_map<int,bool> where int is the node, and bool tells if it is visited or not
+
+Also need QUEUE to process the nodes
+
+We have the adjacency list as:
+
+0->3
+1->2,3,4
+2->1
+3->0,1
+4->1
+
+In the unordered map we initialize all the node as false (meaning that it is not visited)
+
+
+
+STEPS:
+
+1. Put the front node in the Queue
+2. Then take it out, make it a frontNode, mark it as visited, and print it
+3. Push all it neighbours in the queue
+4. Now the front node=3
+5. Take the front node from the queue, mark it as visited
+6. Print it
+7. Push all it neighbours in the queue
+8. We can only push the neighbors in the queue if they are already not visited
+
+
+If all the nodes are not connected then we have a disconnected graph
+
+and to handle that case we use a for loop
+
+for (int i=0; i<node; ++i) //in this case we will visit all the node of the graph
+
