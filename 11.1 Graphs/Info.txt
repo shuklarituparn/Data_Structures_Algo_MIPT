@@ -39,3 +39,6 @@ if we have 1->2,4,5 and 2->1,2,4
 then we can write it as 1->2,4,5 here its a list and the number 1 is a number
 
 so we can map a number with a list and we have our adjacency list
+
+
+Based on the question we can also declare adjacency list as vector<vector<int>>

@@ -17,10 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ced34baf-fcf7-4b15-9328-5feba4ec04ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/Info_BFS.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/graphs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/BFS.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Depth_First_Search/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency Matrix/Info_ADJ_MATR.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency Matrix/graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency Matrix/test1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency list/adjlist.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency list/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/Info_BFS.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/Info_BFS.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/11.1 Graphs/Info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +52,10 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2XyqjUXgkdgJ5QlMXBqvjqqF8fE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,25 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="C/C++ File.graphs.cpp">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11.1 Graphs/Simple graph/" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.main.cpp (2)">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BFS.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algo_MIPT" TARGET_NAME="BFS.cpp" CONFIG_NAME="BFS.cpp">
+      <option name="sourceFile" value="11.1 Graphs/Breadth_First_Search/BFS.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Unnamed" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
@@ -82,19 +102,45 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="graphs.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algo_MIPT" TARGET_NAME="graphs.cpp" CONFIG_NAME="graphs.cpp">
-      <option name="sourceFile" value="11.1 Graphs/Simple graph/graphs.cpp" />
+    <configuration name="graph.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algo_MIPT" TARGET_NAME="graph.cpp" CONFIG_NAME="graph.cpp">
+      <option name="sourceFile" value="11.1 Graphs/Simple graph/Adjacency Matrix/graph.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algo_MIPT" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="11.1 Graphs/Simple graph/Adjacency list/main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp (2)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algo_MIPT" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="11.1 Graphs/Depth_First_Search/main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Data_Structures_Algo_MIPT" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="11.1 Graphs/Breadth_First_Search/main.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="C/C++ File.Unnamed" />
-      <item itemvalue="C/C++ File.graphs.cpp" />
+      <item itemvalue="C/C++ File.BFS.cpp" />
+      <item itemvalue="C/C++ File.main.cpp (2)" />
+      <item itemvalue="C/C++ File.graph.cpp" />
+      <item itemvalue="C/C++ File.main.cpp (1)" />
+      <item itemvalue="C/C++ File.main.cpp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.graphs.cpp" />
+        <item itemvalue="C/C++ File.main.cpp (2)" />
+        <item itemvalue="C/C++ File.BFS.cpp" />
+        <item itemvalue="C/C++ File.main.cpp (1)" />
+        <item itemvalue="C/C++ File.graph.cpp" />
+        <item itemvalue="C/C++ File.main.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699611803694</updated>
-      <workItem from="1699611805702" duration="1071000" />
+      <workItem from="1699611805702" duration="3742000" />
+      <workItem from="1699648502391" duration="622000" />
+      <workItem from="1699720550309" duration="3187000" />
+      <workItem from="1699869233133" duration="9801000" />
+      <workItem from="1699895235591" duration="5064000" />
+      <workItem from="1699950161471" duration="1580000" />
     </task>
     <servers />
   </component>
@@ -120,6 +171,11 @@
           <url>file://$PROJECT_DIR$/11.1 Graphs/Simple graph/graphs.cpp</url>
           <line>36</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency list/main.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
