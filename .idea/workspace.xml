@@ -17,18 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ced34baf-fcf7-4b15-9328-5feba4ec04ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/BFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Depth_First_Search/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency Matrix/Info_ADJ_MATR.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency Matrix/graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency Matrix/test1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency list/adjlist.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Simple graph/Adjacency list/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Assignment/01.ProblemD-BFS/Version2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Assignment/01.ProblemD-BFS/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Assignment/02.Topological sort/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Assignment/03. Kosaraju/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Topological sort/Topological_sort.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.1 Graphs/Topological sort/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/Info_BFS.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/Info_BFS.TXT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Breadth_First_Search/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/11.1 Graphs/Info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.1 Graphs/Depth_First_Search/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/11.1 Graphs/Depth_First_Search/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +154,9 @@
       <workItem from="1699720550309" duration="3187000" />
       <workItem from="1699869233133" duration="9801000" />
       <workItem from="1699895235591" duration="5064000" />
-      <workItem from="1699950161471" duration="1580000" />
+      <workItem from="1699950161471" duration="2870000" />
+      <workItem from="1699994468029" duration="504000" />
+      <workItem from="1700030900468" duration="4120000" />
     </task>
     <servers />
   </component>
