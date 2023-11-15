@@ -1,2 +1,28 @@
 
-Suppose we have a
+Suppose we have a graph, where the outgoing nodes are given as "->" and the inside graph are given as "<-"
+
+The first vertex in topological sorting is always a vertex with degree 0 (With no incoming edges).
+
+5->0,2
+4->0,1
+2->3
+3->1
+
+
+The topological sorting  for the above graph will be 5,4,2,3,1,0
+
+******************************************* Normal DFS *********************************************************************
+
+//In the Normal DFS, we print the vertex given, mark it as visited and then call the function recursively on the adjacent vertices
+
+******************************************* Topological sort *****************************************************************
+
+1. Use a temporary stack
+2. Don't print the vertex
+3. Call the topological sort function recursively for all its adjacent vertices and push it to stack
+4. Print the content of the stack
+
+
+Vertex is pushed to the stack only when all of its adjacent vertices (and their adjacent vertices) are in stack
+
+
