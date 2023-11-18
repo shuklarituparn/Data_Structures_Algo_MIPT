@@ -1,0 +1,41 @@
+A strongly connected graph is a graph in which all the nodes can be reached back from a node
+
+If theres a path from A->B then there should be a path from B->A too
+
+If we have a grpah like:
+
+1->3->2->1
+1->4->5
+
+Here as we can go from 1->3->2->1 so we have a strongly connected component, In the second one we have 1->4->5 but we
+cannot come back to 1 , so we have two strongly connected components
+
+{1,2,3} , {4}, {5}
+
+Transpose of the graph
+
+so we have thr graph
+
+0->1,2,3,4
+1->2,3
+3->4,5
+
+for example, then the pseudocode for the graph to take its transpose is:
+
+1. Make a new instance of the class graph (so as not mess up the original)
+2. declare the iterator for the list type to iterate over the container
+3. Iterate through the nodes
+4. Go in the nodes and iterate through the container (list), adding the node to all the element using method on graph
+5. Return the class graph
+
+
+Kosaraju Algorithm:
+
+1. Make a boolean array of the number of nodes and mark it all false
+2. Do a DFS on the graoh using the first node, by passing the Visited Array
+3. Check if all the vertices are not Visisted, if not return False
+4. Make a graph instance and take its transpose
+5. Make all the vertices as not Visisted
+6. Do a DFS on the graph again by passing the node, and the Visited Array
+7. Check if the vertices are visited if not return false
+8. Else the graph is strongly connected Graph
